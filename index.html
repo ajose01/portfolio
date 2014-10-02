@@ -25,7 +25,7 @@
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements and IE Fallback-->
 	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
+	  <script src="assets/js/html5shiv.js"></script>
 	<![endif]-->
 
 	<!-- Fav and touch icons -->
@@ -36,7 +36,7 @@
 	<link rel="shortcut icon" href="assets/ico/favicon.png">
 
 </head>
-<body id="top">
+<body id="top" class="fullscreen-image-background">
 
 	<!-- NAVBAR -->
 	<div class="navbar navbar-fixed-top">
@@ -49,8 +49,8 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a href="index.html" class="navbar-brand">
-					<!--<img src="assets/img/loop-logo-white.png" alt="Loop Logo" />-->
-					<h1>Angel Jose</h1>
+					<!-- <img src="assets/img/loop-logo-white.png" alt="Loop Logo" /> -->
+					<h1 class="MyName">Angel Jose</h1>
 				</a>
 			</div>
 			<nav class="navbar-collapse collapse" id="main-nav" role="navigation">
@@ -68,39 +68,31 @@
 
 	<!-- HERO UNIT -->
 	<div id="hero-unit" class="hero-unit">
-			
-		<div class="slideshow">
-			<div class="hero-content text-right">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8 col-lg-offset-4">
-							<div id="slidecaption" class="slide-caption"></div>
-							<div class="hero-buttons">
-								<a href="#about" id="btn-about" class="btn btn-info btn-lg"><i class="fa fa-arrow-circle-o-down"></i> READ MORE</a>
-								<a href="#contact" id="btn-contact" class="btn btn-primary btn-lg"><i class="fa fa-phone-square"></i> GET IN TOUCH</a>
+		<div class="hero-content text-right">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-lg-offset-5">
+						<div id="slidecaption" class="slide-caption">
+							<div class="hero-text">
+								<h2 class="hero-heading">I AM <span class="name">ANGEL JOSE</span></h2>
+								<div data-looper="go" data-interval="3000" class="looper slide down">
+									<div class="looper-inner">
+										<div class="item animated"><p>A WEB DEVELOPER</p></div>
+										<div class="item animated"><p>A GADGET ENTHUSIAST</p></div>
+										<div class="item animated"><p>A PROBLEM SOLVER</p></div>
+										<div class="item animated"><p>FROM THE CITY OF ANGELS</p></div>
+									</div>
+								</div>
 							</div>
-						</div>	
-					</div>
-				</div>
-			</div>
-
-			<!-- Navigation -->
-			<div class="slide-navigation">
-				<a id="prevslide" class="load-item"><i class="fa fa-angle-left"></i></a>
-				<a id="nextslide" class="load-item"><i class="fa fa-angle-right"></i></a>
-				
-				<!-- Slide Pagination -->
-				<ul id="slide-list" class="list-inline"></ul>
-
-				<!-- Control Bar -->
-				<div id="controls-wrapper" class="load-item">
-					<div id="controls">
-						<a id="pauseplay"><i class="fa fa-pause"></i></a>
+						</div>
+						<div class="hero-buttons">
+							<a href="#about" id="btn-about" class="btn btn-info btn-lg"><i class="fa fa-arrow-circle-o-down"></i> READ MORE</a>
+							<a href="#contact" id="btn-contact" class="btn btn-primary btn-lg"><i class="fa fa-phone-square"></i> GET IN TOUCH</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</div>
 	<!-- END HERO UNIT -->
 	
@@ -113,15 +105,17 @@
 			<div class="container">
 				<div class="section-heading">
 					<h2>ABOUT ME</h2>
-					<p>A great beginning to know me</p>
+					<p>A Web Developer and Consultant in Echo Park, CA</p>
 					<hr />
 				</div>
 				<div class="section-content">
-					<p>Progressively maintain inexpensive information without intuitive markets. Quickly reconceptualize 2.0 imperatives without next-generation meta-services. Professionally conceptualize plug-and-play metrics without orthogonal information. Appropriately strategize dynamic infrastructures and turnkey channels. Seamlessly synthesize high-quality total linkage without distinctive intellectual capital.</p>
 
-					<p>Completely reinvent business mindshare with superior strategic theme areas. Dramatically build reliable platforms without real-time e-tailers. Competently predominate covalent scenarios rather than future-proof content. Intrinsicly innovate holistic users whereas cost effective partnerships. Objectively transform collaborative outsourcing before an expanded array of services.
+					<p>I'm based in Echo Park, CA, 3 miles from Downtown LA.</p>
 
-					Monotonectally provide access to next-generation imperatives rather than mission-critical materials. Seamlessly negotiate excellent services rather than web-enabled sources. Quickly actualize proactive niches rather than user friendly catalysts for change. Efficiently negotiate distributed experiences for alternative best practices. Efficiently.</p>
+					<p>I can help you design or develop your website or app.  If it's a personal portfolio page that allows you to display your best work, I got you covered.  However, you or your business may need something more robust.  That's where I can hand-hold you through the process of deciding what you need, and giving you suggestions on what would be the easiest and fastest way of getting started.
+
+					I'll help you brainstorm your idea, visualize how you want your site or app to look, and finally start developing.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -141,7 +135,7 @@
 		</div>
 		<!-- END FULL-WIDTH PARALLAX -->
 
-		<!-- SKILLS CHART -->
+		<!-- SKILLS CHART 
 		<div id="skills" class="section skills">
 			<div class="container">
 				<div class="row">
@@ -164,14 +158,14 @@
 				</div>
 			</div>
 		</div>
-		<!-- END SKILLS CHART -->
+	 END SKILLS CHART -->
 
 		<!-- SERVICES -->
 		<div id="services" class="section darker services" >
 			<div class="container">
 				<div class="section-heading">
 					<h2>SERVICES</h2>
-					<p>We strive to give the best service to our clients</p>
+					<p>Freelance or Full-time Web Development</p>
 					<hr />
 				</div>
 				<div class="section-content">
@@ -180,9 +174,9 @@
 							<div class="service-item">
 								<span class="icon-checkmark2 service-icon"></span>
 								<div class="service-text">
-									<h3>Elegant Design</h3>
-									<p>Quickly actualize proactive niches rather than user friendly catalysts for change.</p>
-									<a href="#" class="read-more"><span>Read more ...</span> <i class="i fa fa-arrow-circle-right"></i></a>
+									<h3>Elegantly Designed</h3>
+									<p></p>
+									
 								</div>
 							</div>
 						</div>
@@ -191,8 +185,7 @@
 								<span class="icon-pen service-icon"></span>
 								<div class="service-text">
 									<h3>Carefully Handcrafted</h3>
-									<p>Quickly actualize proactive niches rather than user friendly catalysts for change.</p>
-									<a href="#" class="read-more"><span>Read more ...</span> <i class="i fa fa-arrow-circle-right"></i></a>
+									
 								</div>
 							</div>
 						</div>
@@ -200,9 +193,8 @@
 							<div class="service-item">
 								<span class="icon-lab service-icon"></span>
 								<div class="service-text">
-									<h3>Design Formula</h3>
-									<p>Quickly actualize proactive niches rather than user friendly catalysts for change.</p>
-									<a href="#" class="read-more"><span>Read more ...</span> <i class="i fa fa-arrow-circle-right"></i></a>
+									<h3>Clean Design Formula</h3>
+									
 								</div>
 							</div>
 						</div>
@@ -211,8 +203,8 @@
 								<span class="icon-phone service-icon"></span>
 								<div class="service-text">
 									<h3>Responsive</h3>
-									<p>Quickly actualize proactive niches rather than user friendly catalysts for change.</p>
-									<a href="#" class="read-more"><span>Read more ...</span> <i class="i fa fa-arrow-circle-right"></i></a>
+									<!--<p>Quickly actualize proactive niches rather than user friendly catalysts for change.</p>
+									<a href="#" class="read-more"><span>Read more ...</span> <i class="i fa fa-arrow-circle-right"></i></a> -->
 								</div>
 							</div>
 						</div>
@@ -225,26 +217,26 @@
 		<!-- WORKS -->
 		<div id="works" class="section works">
 			<div class="section-heading">
-				<h2>WORKS</h2>
-				<p>The best thing is when our work become part of client success</p>
+				<h2>SAMPLE PROJECTS</h2>
+				<p></p>
 				<hr />
 			</div>
 			<div class="section-content">				
 				<ul class="list-inline work-item-filters">
-					<li><a class="active" href="#" data-filter="*">ALL</a></li>
-					<li><a href="#" data-filter=".design">DESIGN</a></li>
+					<li><a class="active" href="#" data-filter="*">Web Apps</a></li>
+					<!--<li><a href="#" data-filter=".design">DESIGN</a></li>
 					<li><a href="#" data-filter=".photography">PHOTOGRAPHY</a></li>
 					<li><a href="#" data-filter=".ui">UI</a></li>
 					<li><a href="#" data-filter=".ux">UX</a></li>
-					<li><a href="#" data-filter=".video">VIDEO</a></li>
+					<li><a href="#" data-filter=".video">VIDEO</a></li> -->
 				</ul>
 
 				<div class="work-item-wrapper">
 					<ul class="work-item-list list-col-4">
 						<li class="work-item design">
-							<img src="assets/img/portfolio/work1.jpg" alt="This is the description">
+							<img src="assets/img/portfolio/work10.jpg" alt="This is the description">
 							<div class="image-overlay">
-								<a href="assets/img/portfolio/work1-ori.jpg" class="media-popup" title="The Guitar">
+								<a href="assets/img/portfolio/work10.jpg" class="media-popup" title="The Guitar">
 									<div class="work-item-info">
 										<h3>The Guitar</h3>
 										<p>Work item brief description</p>
@@ -254,9 +246,9 @@
 							</div>
 						</li>
 						<li class="work-item video">
-							<img src="assets/img/portfolio/work2.jpg" alt="Just paste the link and go">
+							<img src="assets/img/portfolio/work11.jpg" alt="Just paste the link and go">
 							<div class="image-overlay">
-								<a href="https://www.youtube.com/watch?v=ValQcoRwDic" class="mfp-iframe media-popup" title="Video Title">
+								<a href="assets/img/portfolio/work11.jpg" class="media-popup" title="The Guitar">
 									<div class="work-item-info">
 										<h3>YouTube</h3>
 										<p>Just paste the link and go</p>
@@ -266,9 +258,9 @@
 							</div>
 						</li>
 						<li class="work-item ux">
-							<img src="assets/img/portfolio/work3.jpg" alt="Work item brief description">
+							<img src="assets/img/portfolio/work12.jpg" alt="Work item brief description">
 							<div class="image-overlay">
-								<a href="assets/img/portfolio/work3-ori.jpg" class="media-popup" title="Skyscraper">
+								<a href="assets/img/portfolio/work12.jpg" class="media-popup" title="The Guitar">
 									<div class="work-item-info">
 										<h3>Skyscraper</h3>
 										<p>Work item brief description</p>
@@ -277,7 +269,7 @@
 								</a>
 							</div>
 						</li>
-						<li class="work-item photography">
+						<!--<li class="work-item photography">
 							<img src="assets/img/portfolio/work4.jpg" alt="Work item brief description">
 							<div class="image-overlay">
 								<a href="assets/img/portfolio/work4-ori.jpg" class="media-popup" title="Heaven">
@@ -336,7 +328,7 @@
 									</div>
 								</a>
 							</div>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 			</div>
@@ -347,7 +339,7 @@
 		<div id="contact" class="section contact">
 			<div class="section-heading">
 				<h2>GET IN TOUCH</h2>
-				<p>Now it's time to build a business and relationship</p>
+				<p>Feel free to get in touch and talk about what's on your mind</p>
 				<hr />
 			</div>
 			<div class="section-content">
@@ -359,17 +351,17 @@
 									<li>
 										<i class="fa fa-map-marker pull-left"></i>
 										<h3>Address</h3>
-										<p>12345 North Main Street<br />New York, 22334455</p>
+										<p>Echo Park<br />Los Angeles, CA 90026</p>
 									</li>
 									<li>
 										<i class="fa fa-envelope pull-left"></i>
 										<h3>Phone</h3>
-										<p>+621 234 4567</p>
+										<p>+ 1 310 254-5772</p>
 									</li>
 									<li>
 										<i class="fa fa-user pull-left"></i>
 										<h3>Email</h3>
-										<p><a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></p>
+										<p><a href="mailto:hello@yourdomain.com">ajose01@gmail.com</a></p>
 									</li>
 								</ul>
 							</div>
@@ -430,7 +422,7 @@
 	<!-- FOOTER -->
 	<footer id="footer" class="section">
 		<div class="container">
-			<p class="copyright pull-left">&copy; 2014. The Develovers. All Rights Reserved.</p>
+			<p class="copyright pull-left">&copy; 2014. Angel Jose. All Rights Reserved. 110 Los Angeles photo by <a href="https://www.flickr.com/photos/nathanpirtz/6909688322/in/photolist-bwzXBh-hD1G8P-6ixiSz-dVRUyc-5P6Hob-dEjsRA-84xYET-diZCys-diZfqL-6uxF8d-7TPTUe-6QidDZ-t5hes-8B1VGi-bUYish-mewWc-61uCBh-9h4AJT-5Hr6so-6SfaUx-4Swb4d-76JZqg-91PSgy-ezS7e-i7rusA-88dgse-8Dh79S-n9XbG9-n9Tb2F-ntbHNs-7Gg93y-5EZvwH-bmB2r9-684ZmM-bWUqV1-ANmSs-oYP5J4-27joMG-4XTcUB-639Knf-7d6U5e-4zGzTd-9cHQVL-95exJg-8DdZ9p-6SjeT1-7Gbxer-7ieJmd-b5QRNc-62aS5h/">Nathan Pirtz</a> under <a href="http://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></p>
 		</div>
 	</footer>
 	<!-- END FOOTER -->
@@ -445,13 +437,12 @@
 	<script src="assets/js/jquery.scrollTo-1.4.3.1-min.js"></script>
 	<script src="assets/js/jquery.localscroll-1.2.7-min.js"></script>
 	<script src="assets/js/jquery.easing.min.js"></script>
-	<script src="assets/js/supersized.3.2.7.min.js"></script>
-	<script src="assets/js/supersized.shutter.min.js"></script>
 	<script src="assets/js/jquery.parallax-1.1.3.js"></script>	
 	<script src="assets/js/twitter-fetcher.js"></script>
 	<script src="assets/js/imagesloaded.pkgd.js"></script>
 	<script src="assets/js/jquery.isotope.js"></script>
 	<script src="assets/js/wow.js"></script>
+	<script src="assets/js/looper.js"></script>
 	<script src="assets/js/jpreloader.js"></script>
 	<script src="assets/js/parsley.min.js"></script>
 	<script src="assets/js/jquery.easypiechart.min.js"></script>
