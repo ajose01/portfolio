@@ -1,0 +1,29 @@
+body {
+  background-color: #1E1E1E;
+  color: white;
+  font-family: 'IBM Plex Mono', serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding-top: 5px;
+}
+
+.body-container {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-container a {
+  color: white;
+}
